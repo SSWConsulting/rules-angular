@@ -21,8 +21,8 @@ import { ReadComponent } from './components/read/read.component';
     ])
   ],
   providers: [
-    { provide: 'ACCOUNT', useValue: 'dotnet' },
-    { provide: 'REPO', useValue: 'docs' },
+    { provide: 'ACCOUNT', useValue: 'SSWConsulting' },
+    { provide: 'REPO', useValue: 'rules' },
   ],
   bootstrap: [AppComponent]
 })
